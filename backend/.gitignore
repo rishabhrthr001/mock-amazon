@@ -1,0 +1,64 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build directories
+/dist
+/build
+/coverage
+/.next
+/.nuxt
+/.vscode
+/.idea
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm/
+
+# Logs
+logs
+*.log
+logs/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Private keys
+*.pem
+*.key
+
+# SSH private keys
+.id_rsa
+.id_rsa.pub
+
+# API keys (if you accidentally added them, remove from git history as well)
+*.env
+
+# Optional: If you're using Docker, ignore Docker-related files
+docker-compose.override.yml
+*.dockerfile
+Dockerfile
+
+# Ignore coverage reports (for testing tools like Jest, Mocha, etc.)
+coverage/
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# Operating System files
+Thumbs.db
+Desktop.ini
